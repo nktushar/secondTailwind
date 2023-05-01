@@ -13,3 +13,11 @@ hlinks.forEach((link) => {
     menu.classList.toggle('hidden');
   });
 });
+
+
+// dark mode
+const body = document.querySelector('body');
+const moon = document.querySelector('#moon');
+moon.addEventListener('click', () => {  
+  body.classList.toggle('dark');
+});
